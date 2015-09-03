@@ -1,8 +1,4 @@
 section.blog
-  .primary-title
-    h2
-      = title_for("our-blog")
-
   = render "blog/articles/modules/aside"
   .column.listpost
     - articles.each do |article|
