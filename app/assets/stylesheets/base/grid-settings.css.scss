@@ -1,6 +1,6 @@
 @import "neat-helpers";
 @media (max-width : 300px){
-	$max-width: px(480);
+  $max-width: 480px;
 }
 /* iPads (landscape) ----------- */
 @media only screen
@@ -8,7 +8,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 /* Styles */
-  $max-width: em(1024);
+  $max-width: 1024px;
 }
  
 /* iPads (portrait) ----------- */
@@ -16,10 +16,10 @@ and (orientation : landscape) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-  $max-width: em(768);
+  $max-width: 768px;
 }
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
-  $max-width: em(940);
+  $max-width: 940px;
 }
